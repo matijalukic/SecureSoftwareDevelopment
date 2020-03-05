@@ -29,6 +29,7 @@
                 <th scope="col">Model</th>
                 <th scope="col">Manufacturer</th>
                 <th scope="col">Price</th>
+                <th scope="col">Year</th>
                 <th scope="col">Wholesale Price</th>
                 <th></th>
             </tr>
@@ -39,6 +40,7 @@
                 <td th:text="${car.model}"></td>
                 <td th:text="${car.manufacturer}"></td>
                 <td th:text="${car.price}"></td>
+                <td th:text="${car.year}"></td>
                 <td th:text="${car.wholesalePrice}"></td>
                 <td><a th:href="@{/cars(id=${car.id})}">Details</a></td>
             </tr>
